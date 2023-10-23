@@ -1,0 +1,151 @@
+*{  
+    font-family: 'Montserrat',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    color: #424242;
+}
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.purple__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left:650px;
+}
+.app__header{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+}
+.app_logo{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap:10px;
+    margin-top: 80px;
+
+}
+.app_logo .app__title{
+    margin-right: 1rem;
+
+}
+.app__links{
+   
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  
+}
+.app__links li{
+    margin-right: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    font-size:14px ;
+    font-weight: 500px;
+   
+}
+.app__links li :nth-child(2){
+    color: purple;
+}
+.app__showcase{
+    display: flex;
+    margin:5rem 0;
+    
+    justify-content: flex-start;
+    margin-left: -100px;
+
+}
+.app__showcase-info{
+    flex: 6px;
+}
+.app__showcase-info h1,h3{
+    font-size: 52px;
+    margin: 0px;
+
+}
+.app__showcase-info h1{
+    color:#D05270;
+    font-weight: bold;
+    
+}
+.app__showcase-info h1{
+    font: weight 500px;;
+}
+.app__showcase-info p{
+    font: weight 400px;
+    font-size: 18px;
+}
+.app__showcase-image{
+    flex:4px;
+    margin-left: 150px;
+}
+.app__links{
+   margin-top: 100px;
+   gap: 10px;
+}
+.app__blog-categories{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: -135px;
+    gap: 30px;
+    cursor: pointer;
+}
+.app__blog-categories :nth-child(1){
+    color: #D05270;
+    font-weight: bold;
+   border-bottom: 3px solid #D05270;
+   padding: 0 2rem;
+   padding-bottom: 0.5rem;   
+}
+.app__post-list{
+
+ display: flex;
+ flex-wrap:wrap;
+ 
+ 
+  
+}
+.app__post-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+    width: 100%;
+    left: 390px;
+
+}
+.app__post__card img{
+    
+    height:300px;
+}
+.post-title{
+    color: #D05270;
+}
+.post-detail{
+    color: #D05270;
+}
+.src__logo{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+   height: 600px;
+   margin-right: 500px;
+   
+}
+
+
+
+
+
+
